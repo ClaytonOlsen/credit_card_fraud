@@ -7,6 +7,7 @@ It is important that credit card companies are able to recognize fraudulent cred
 The credit card fraud dataset contains post principal component analysis variables to maintain anonimity as well as the amount paid for each purchase, the time, and the response variable the class (1 for fraduelent and 0 for non-fradulent).
 
 
+> ![Credit_card_data](https://github.com/ClaytonOlsen/credit_card_fraud/images/Screen Shot 2021-09-09 at 3.50.47 PM.png)
 
 
 
