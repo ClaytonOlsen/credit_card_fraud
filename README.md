@@ -17,7 +17,7 @@ Other than the transaction and the amount, we do not have information on what th
 The distribution of the classes are very skewed with much more non-fradulent cases than fradulent cases as shown in the following image.
 
 
-![fraudvnotfraud](https://github.com/ClaytonOlsen/credit_card_fraud/blob/101e4b25c206f462f5ac41026f38e38987536ac8/images/fraudvnotfraud-1.png)
+![fraudvnotfraud](https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/fraudvnotfraud-1.png)
 
 
 
