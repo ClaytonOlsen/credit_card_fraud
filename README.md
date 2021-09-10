@@ -16,7 +16,7 @@ Other than the transaction and the amount, we do not have information on what th
 
 The distribution of the classes are very skewed with much more non-fradulent cases than fradulent cases as shown in the following image.
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/101e4b25c206f462f5ac41026f38e38987536ac8/images/fraudvnotfraud.pdf" width="600" height="400" alt="fvnf">
+<embed src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/101e4b25c206f462f5ac41026f38e38987536ac8/images/fraudvnotfraud.pdf" width="500" height="375" type="application/pdf">
 
 
 The first thing we must do is gather a basic sense of our data. Remember, except for the transaction and amount we dont know what the other columns are (due to privacy reasons). The only thing we know, is that those columns that are unknown have been scaled already.
