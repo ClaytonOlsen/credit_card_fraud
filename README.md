@@ -16,9 +16,15 @@ Other than the transaction and the amount, we do not have information on what th
 
 The distribution of the classes are very skewed with much more non-fradulent cases than fradulent cases as shown in the following image.
 
-
 ![fraudvnotfraud](https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/fraudvnotfraud-1.png)
 
+As all other variables are normalized from the results of PCA, we will explore the relationships with the other variables.
+
+![tmebyclass](https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/timebyclass-1.png)
+
+![time:amount](https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/time:amount_boxplots-1.png)
+
+![correlation](https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/correlation_table-1.png)
 
 
 
