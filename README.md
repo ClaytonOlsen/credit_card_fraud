@@ -20,7 +20,7 @@ The distribution of the classes are very skewed with much more non-fradulent cas
 
 As all other variables are normalized from the results of PCA, we will explore the relationships with the other variables.
 
-![tmebyclass](https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/timebyclass-1.png | width=100)
+![tmebyclass](https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/timebyclass-1.png =250x250)
 
 ![time:amount](https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/time:amount_boxplots-1.png | width=100)
 
