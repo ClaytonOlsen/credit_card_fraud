@@ -25,11 +25,27 @@ As all other variables are normalized from the results of PCA, we will explore t
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/correlation_table-1.png" width="800" height="600" />
 
 
+## Model Criterion and Oversampling
 
+Accuracy can be bias for imbalanced data which classifies all the data points as the prominent class and can achievce near perfect accuracy. We care more about reducing false negatives and increasing True Positives as they are the most important to avoid in fraud detection where limited cases are truly limited as fradulent.
 
+Rather we will use Recall or True Positive Rate to determine the validity of our models as a decrease in false negatives will increase recall.
 
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/Random Forest-1.png" width="400" height="300" />
 
+When we want to minimize the False Negatives with imbalanced data, we can oversample the small class (positively classified data in this case).
 
+#### Synthetic Minority Oversampling Technique (SMOTE)
+
+SMOTE works by selecting examples that are close in the feature space, drawing a line between the examples in the feature space and drawing a new sample at a point along that line.
+
+Specifically, a random example from the minority class is first chosen. Then k of the nearest neighbors for that example are found (typically k=5). A randomly selected neighbor is chosen and a synthetic example is created at a randomly selected point between the two examples in feature space. The result is a more balanced dataset as displayed below.
+
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/oversample-1.png" width="400" height="300" />
+
+The Random Forest results from the SMOTE data is as follows.
+
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/Random_forest_smote-1.png" width="400" height="300" />
 
 
 
