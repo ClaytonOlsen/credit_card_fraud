@@ -22,8 +22,6 @@ As all other variables are normalized from the results of PCA, we will explore t
 
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/timebyclass-1.png" width="800" height="600" />
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/time:amount_boxplots-1.png" width="800" height="600" />
-
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/correlation_table-1.png" width="800" height="600" />
 
 
@@ -31,7 +29,6 @@ As all other variables are normalized from the results of PCA, we will explore t
 
 
 
-vfds
 
 
 
