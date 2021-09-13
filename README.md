@@ -41,11 +41,11 @@ SMOTE works by selecting examples that are close in the feature space, drawing a
 
 Specifically, a random example from the minority class is first chosen. Then k of the nearest neighbors for that example are found (typically k=5). A randomly selected neighbor is chosen and a synthetic example is created at a randomly selected point between the two examples in feature space. The result is a more balanced dataset as displayed below.
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/oversample-1.png" width="350" height="350" />
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/oversample-1.png" width="400" height="400" />
 
 The Random Forest results from the SMOTE data is as follows.
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/Random_forest_smote-1.png" width="350" height="350" />
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/Random_forest_smote-1.png" width="400" height="400" />
 
 
 
