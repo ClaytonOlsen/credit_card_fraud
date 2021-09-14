@@ -71,11 +71,12 @@ With the balanced data we will fit a variety of ML models for credit card fraud 
 
 #### Model Criterion
 
-|Model              | Recall Score         | Precision Score      | auc-roc-score      
-|Random Forest      | 0.8367346938775511   | 0.7542616021781151   | 0.9182882107541948 
-|K-Nearest Neighbor | 0.8775510204081632   | 0.41716861015865014  | 0.9379401838112846 
-|Adaboost           | 0.9285714285714286   | 0.06073981864221495  | 0.9528285533403007 
-|XGBoost            | 0.9081632653061225   | 0.12469810887183227  | 0.9491576033902588 
+| Model              | Recall Score         | Precision Score      | auc-roc-score      |
+| --- | --- | --- | --- |
+| Random Forest      | 0.8367346938775511   | 0.7542616021781151   | 0.9182882107541948 |
+| K-Nearest Neighbor | 0.8775510204081632   | 0.41716861015865014  | 0.9379401838112846 |
+| Adaboost           | 0.9285714285714286   | 0.06073981864221495  | 0.9528285533403007 |
+| XGBoost            | 0.9081632653061225   | 0.12469810887183227  | 0.9491576033902588 |
 
 
 
