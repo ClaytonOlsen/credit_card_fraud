@@ -16,13 +16,13 @@ Other than the transaction and the amount, we do not have information on what th
 
 The distribution of the classes are very skewed with much more non-fradulent cases than fradulent cases as shown in the following image.
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/fraudvnotfraud-1.png" width="600" height="500" data-rotate="90"/>
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/fraudvnotfraud-1.png" width="500" height="400" data-rotate="90"/>
 
 As all other variables are normalized from the results of PCA, we will explore the relationships with the other variables.
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/timebyclass-1.png" width="600" height="600" />
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/timebyclass-1.png" width="500" height="500" />
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/correlation_table.png" width="600" height="600" />
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/correlation_table.png" width="500" height="500" />
 
 
 ## Model Criterion and Oversampling
