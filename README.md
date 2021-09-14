@@ -29,9 +29,9 @@ Looking at the variables correlation with the class varaible we see that V17, V1
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/correlation_table.png" width="500" height="500" />
 
 
-## Model Criterion and Oversampling
+## Oversampling
 
-Accuracy can be bias for imbalanced data which classifies all the data points as the prominent class and can achievce near perfect accuracy. We care more about reducing false negatives and increasing True Positives as they are the most important to avoid in fraud detection where limited cases are truly limited as fradulent.
+Accuracy can be bias for imbalanced data which classifies all the data points as the prominent class and can achievce near perfect accuracy. We care more about reducing false negatives and increasing True Positives as they are the most important in fraud detection where limited cases are truly limited as fradulent.
 
 Rather we will use Recall or True Positive Rate to determine the validity of our models as a decrease in false negatives will increase recall.
 
@@ -66,6 +66,16 @@ With the balanced data we will fit a variety of ML models for credit card fraud 
 #### XGBoost
 
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/xgboost-1.png" width="500" height="250" />
+
+## Model Comparison
+
+#### Model Criterion
+
+Model              | Recall Score         | Precision Score      | auc-roc-score      |
+Random Forest      | 0.8367346938775511   | 0.7542616021781151   | 0.9182882107541948 |
+K-Nearest Neighbor | 0.8775510204081632   | 0.41716861015865014  | 0.9379401838112846 |
+Adaboost           | 0.9285714285714286   | 0.06073981864221495  | 0.9528285533403007 |
+XGBoost            | 0.9081632653061225   | 0.12469810887183227  | 0.9491576033902588 |
 
 
 
