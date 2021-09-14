@@ -52,11 +52,11 @@ The random forest model after oversampling had better recall and reduced the num
 
 #### K-Nearest Neighbor
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/KNN_smote-1.png" width="500" height="250" />
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/KNN_smote-1.png" width="250" height="250" />
 
 #### Adaboost
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/KNN_smote-1.png" width="500" height="250" />
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/adaboost.png" width="500" height="250" />
 
 #### XGBoost
 
