@@ -22,6 +22,10 @@ As all other variables are normalized from the results of PCA, we will explore t
 
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/timebyclass-1.png" width="500" height="500" />
 
+#### Correlation Matrices
+
+Looking at the variables correlation with the class varaible we see that V17, V14, V12 and V10 are negatively correlated, meaning the lower these values are, the more likely a purchase will be classfied as fraudulent. Alternatively, V2, V4, V11, and V19 are positively correlated meaning the higher these values are, the mroe likely a purchase will be classified as fraudulent.
+
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/correlation_table.png" width="500" height="500" />
 
 
