@@ -31,7 +31,7 @@ Accuracy can be bias for imbalanced data which classifies all the data points as
 
 Rather we will use Recall or True Positive Rate to determine the validity of our models as a decrease in false negatives will increase recall.
 
-<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/Random_Forest.png" width="350" height="350" />
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/Random_Forest.png" width="500" height="250" />
 
 When we want to minimize the False Negatives with imbalanced data, we can oversample the small class (positively classified data in this case).
 
