@@ -69,6 +69,11 @@ With the balanced data we will fit a variety of ML models for credit card fraud 
 
 ## Model Comparison
 
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/auc-roc-curve.png" width="500" height="250" />
+
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/precision-recall_curve.png" width="500" height="250" />
+
+
 #### Model Criterion
 
 | Model              | Recall Score         | Precision Score      | auc-roc-score      |
