@@ -31,11 +31,11 @@ Looking at the variables correlation with the class varaible we see that V17, V1
 
 ## Oversampling
 
-Accuracy can be bias for imbalanced data which classifies all the data points as the prominent class and can achievce near perfect accuracy. We care more about reducing false negatives and increasing True Positives as they are the most important in fraud detection where limited cases are truly limited as fradulent. The Random Forest model offers fairly accurate results, but may be letting to many fradulent cases slip by. Since each tree is built on a 'bag', and each bag is a uniform random sample from the data, each tree will be biased in teh same direction and magnitude, on averafe by class imbalance. Since we want to minimize False Negatives when building a prediction model for the imbalanced data set, we can oversample the smaller class.
+Accuracy can be bias for imbalanced data that classifies nearly all of the data points as the prominent class. We care more about reducing false negatives and increasing True Positives as False Negatives are the most costly in credit card fraud detection. Applying a Random Forest model to the data offers decent accuracy, but may be lead to many fradulent cases slipping by. Since each tree is built on a "bag", and each "bag" is a uniform random sample from the data, each tree will be biased in the same direction and magnitude, on average by class imbalance.
 
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/Random_Forest.png" width="250" height="250" />
 
-When we want to minimize the False Negatives with imbalanced data, we can oversample the small class (positively classified data in this case).
+Since we want to minimize False Negatives when building a prediction model for the imbalanced data set, we can oversample the smaller class (the fradulent cases).
 
 #### Synthetic Minority Oversampling Technique (SMOTE)
 
