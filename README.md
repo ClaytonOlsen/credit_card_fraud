@@ -48,9 +48,19 @@ The Random Forest results from the SMOTE data is as follows.
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/random_forest_smote.png" width="500" height="250" />
 
 
+The random forest model after oversampling had better recall and reduced the number of False negatives. We will fit other ML models for classifying credit card fraud.
 
+#### K-Nearest Neighbor
 
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/KNN_smote-1.png" width="500" height="250" />
 
+#### Adaboost
+
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/KNN_smote-1.png" width="500" height="250" />
+
+#### XGBoost
+
+<img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/xgboost-1.png" width="500" height="250" />
 
 
 
