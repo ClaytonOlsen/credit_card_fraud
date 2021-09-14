@@ -43,12 +43,13 @@ Specifically, a random example from the minority class is first chosen. Then k o
 
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/smote_data.png" width="500" height="250" />
 
-The Random Forest results from the SMOTE data is as follows.
+With the balanced data we will fit a variety of ML models for credit card fraud classification.
+
+
+## Model Results
+#### Random Forest
 
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/random_forest_smote.png" width="500" height="250" />
-
-
-The random forest model after oversampling had better recall and reduced the number of False negatives. We will fit other ML models for classifying credit card fraud.
 
 #### K-Nearest Neighbor
 
