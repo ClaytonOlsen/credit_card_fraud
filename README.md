@@ -31,9 +31,7 @@ Looking at the variables correlation with the class varaible we see that V17, V1
 
 ## Oversampling
 
-Accuracy can be bias for imbalanced data which classifies all the data points as the prominent class and can achievce near perfect accuracy. We care more about reducing false negatives and increasing True Positives as they are the most important in fraud detection where limited cases are truly limited as fradulent.
-
-Rather we will use Recall or True Positive Rate to determine the validity of our models as a decrease in false negatives will increase recall.
+Accuracy can be bias for imbalanced data which classifies all the data points as the prominent class and can achievce near perfect accuracy. We care more about reducing false negatives and increasing True Positives as they are the most important in fraud detection where limited cases are truly limited as fradulent. The Random Forest model offers fairly accurate results, but may be letting to many fradulent cases slip by. Since each tree is built on a 'bag', and each bag is a uniform random sample from the data, each tree will be biased in teh same direction and magnitude, on averafe by class imbalance. Since we want to minimize False Negatives when building a prediction model for the imbalanced data set, we can oversample the smaller class.
 
 <img src="https://github.com/ClaytonOlsen/credit_card_fraud/blob/main/images/Random_Forest.png" width="250" height="250" />
 
@@ -82,6 +80,17 @@ With the balanced data we will fit a variety of ML models for credit card fraud 
 | K-Nearest Neighbor | 0.8775510204081632   | 0.41716861015865014  | 0.9379401838112846 |
 | Adaboost           | 0.9285714285714286   | 0.06073981864221495  | 0.9528285533403007 |
 | XGBoost            | 0.9081632653061225   | 0.12469810887183227  | 0.9491576033902588 |
+
+
+## Summary
+
+Implementing SMOTE on the imbalanced dataset helped us with the imbalance of our labels and provided better recall for our models. All of the models provided accurent overall classification with AUC-ROC over 0.9 which suggests they are all fairly good predictors. In evaluating our models, we put a heavier weight on high recall as miss classifying fradulent casses as not fradulent is the most costly misclassification for credit card fraud. Though, it would be unwise to solely account for the reduction of false negatives as constantly blocking credit card purchases for people who were just making regular purchases may lead to customer complaints and overall dissatisfaction. Therefore, we may not prefer the Adaboost model even though it has the highest recall because of the massive cost to precision as it may be susceptible to overpredicting that credit card purchases are fradulent. We may want to also consider the KNN or XGBoost model as the have more middle ground results while still maintaining strong recall. To further improve our models we may consider doing outlier removal or trying other models that may provide more accurate responses.
+
+
+
+
+
+
 
 
 
